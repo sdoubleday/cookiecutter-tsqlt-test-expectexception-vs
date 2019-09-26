@@ -1,0 +1,8 @@
+{
+    "schema_under_test": "Creates file with scaffold for tSQLt.ExpectException test",
+    "delimiter": "__",
+    "object_under_test": "Default class name: schema__object",
+    "test_name": "Must begin with 'test ' (lower case, followed by a single space).",
+    "test_schema_name":  "{{cookiecutter.schema_under_test}}{{cookiecutter.delimiter}}{{cookiecutter.object_under_test}}",
+    "Instructions": "Cancel the 'Save changes to the following items?' prompt."
+}
