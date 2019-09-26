@@ -9,10 +9,10 @@ BEGIN
 	EXECUTE tSQLt.FakeTable @TableName = '[{{cookiecutter.schema_under_test}}].TableName';
 	*/
 	/*Do you need to spyprocedure?
-	EXECUTE tSQLt.SpyProcedure @ProcedureName = '[{{cookiecutter.schema_under_test}}].TableName'
+	EXECUTE tSQLt.SpyProcedure @ProcedureName = '[{{cookiecutter.schema_under_test}}].ProcedureName'
 	--,@CommandToExecute = 'SELECT 1'
-	SELECT _id_, MyParameterName1, MyParameterName2 FROM [{{cookiecutter.schema_under_test}}].TableName_SpyProcedureLog
-	SELECT COUNT(1) FROM [{{cookiecutter.schema_under_test}}].TableName_SpyProcedureLog
+	SELECT _id_, MyParameterName1, MyParameterName2 FROM [{{cookiecutter.schema_under_test}}].ProcedureName_SpyProcedureLog
+	SELECT COUNT(1) FROM [{{cookiecutter.schema_under_test}}].ProcedureName_SpyProcedureLog
 	*/
 
 	--ACT
